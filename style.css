@@ -1,0 +1,63 @@
+.body_background {
+    background: url(R.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: black;
+}
+
+h1 {
+    font-weight: bolder;
+    font-style: italic;
+}
+
+h4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#camera {
+    height: 250px;
+    width: 500px;
+    border: 2px solid black;
+    border-style: dashed;
+}
+
+img {
+    width: 2px;
+    border-radius: 3px;
+    padding: 1px;
+    /* box-shadow: ; */
+    height: 150px;
+    width: 500px;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+
+img:hover {
+    border-radius: 140px;
+    cursor: pointer;
+}
+
+#flex {
+    display: flex;
+}
+
+#resultShow {
+    display: flex;
+    align-items: inline;
+    height: 150px;
+    width: 500px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* text-allign: center; */
+    font-weight: bold;
+}
+
+#result1,
+#result2,
+#result3 {
+    height: 150px;
+    width: 500px;
+}
